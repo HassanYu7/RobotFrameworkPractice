@@ -31,6 +31,8 @@ Successful login with valid credentials
     Element Text Should Be    ${MESSAGE}    You are logged in!
     Close Application
 
+ Unsuccessful login with invalid credentails
+
 *** Keywords ***
 Open Test Application
     Open Application
