@@ -30,7 +30,10 @@ Should See Email Error Message
 
 Should See Password Error Message
     [Documentation]    Check if an error message is visible after a failed login attempt.
-    Wait Until Element Is Visible    ${PASSWORD_INVALID}
+        Wait Until Element Is Visible    ${PASSWORD_INVALID}
+
     Element Text Should Be    ${PASSWORD_INVALID}  Please enter at least 8 characters
+
+
 
 
