@@ -34,5 +34,3 @@ Should See Password Error Message
     Element Text Should Be    ${PASSWORD_INVALID}  Please enter at least 8 characters
 
 
-
-

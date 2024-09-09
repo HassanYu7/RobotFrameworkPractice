@@ -22,3 +22,4 @@ Open Appium Application
     ...    deviceName=${device}
     ...    appPackage=${package}
     ...    appActivity=${activity}
+
