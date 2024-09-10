@@ -4,8 +4,6 @@ Resource    ../pages/registration_page.robot
 Library     AppiumLibrary
 
 
-
-
 *** Test Cases ***
 
 Valid Sign Up Test
@@ -32,7 +30,6 @@ Password Invalid
     Sign Up With Credentials    Hassan3@gmail.com   3232    3232
     Should See Password Error Message
 
-
 Confirm Password Invalid
     [Documentation]    This test validates that login fails with invalid credentials.
     Open Appium Application
@@ -41,5 +38,3 @@ Confirm Password Invalid
     Sign Up With Credentials    Hassan4@gmail.com   32532    13232
     Should See Password Error Message
     Should See Confirm Password Error Message
-
-
