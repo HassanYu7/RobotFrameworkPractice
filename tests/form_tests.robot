@@ -2,14 +2,14 @@
 Resource    ../resources/appium_config.robot
 Resource    ../pages/form_page.robot
 Library     AppiumLibrary
-
+Suite Setup   Open Appium Application
+Suite Teardown   Close Application
 
 
 *** Test Cases ***
 
 Fill Form
     [Documentation]    This test validates that a user can log in with valid credentials.
-    Open Appium Application
     Navigate to Form Page
     Enter Input Field    hassan
     Turn On Switch

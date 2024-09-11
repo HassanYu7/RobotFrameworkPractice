@@ -2,6 +2,7 @@
 Library    AppiumLibrary
 
 
+
 *** Variables ***
 ${APPIUM_SERVER}          http://localhost:4723
 ${AUTOMATION_NAME}        UiAutomator2

@@ -8,7 +8,7 @@ ${DROP_3}       //android.view.ViewGroup[@content-desc="drop-l3"]/android.view.V
 
 
 ${DROP_4}       //android.view.ViewGroup[@content-desc="drop-r1"]/android.view.ViewGroup
-${DROP_5}       //android.view.ViewGroup[@content-desc="drop-r1"]/android.view.ViewGroup
+${DROP_5}       //android.view.ViewGroup[@content-desc="drop-r2"]/android.view.ViewGroup
 ${DROP_6}       //android.view.ViewGroup[@content-desc="drop-r3"]/android.view.ViewGroup
 
 ${DROP_7}       //android.view.ViewGroup[@content-desc="drop-c1"]/android.view.ViewGroup

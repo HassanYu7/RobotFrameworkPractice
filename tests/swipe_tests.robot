@@ -2,9 +2,8 @@
 Resource    ../resources/appium_config.robot
 Resource    ../pages/swipe_page.robot
 Library     AppiumLibrary
-Suite Setup  Open Appium Application
-Suite Teardown  Close Application
-
+Suite Setup   Open Appium Application
+Suite Teardown   Close Application
 
 *** Test Cases ***
 
